@@ -40,7 +40,7 @@ public class Http {
     public void mainHandler(APIGatewayProxyRequestEvent apiGatewayProxyRequestEvent, Context context) {
         HashMap<String, String> map = new HashMap<>();
         //更改为自己的账号密码
-        map.put("183******", "123456");
+        map.put("18370706423", "l20020723");
         map.forEach((s, s2) -> {
             String accessCode = getAccessCode(s, s2);
             Map<String, String> login = login(accessCode);
